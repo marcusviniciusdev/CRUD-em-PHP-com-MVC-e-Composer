@@ -1,0 +1,28 @@
+{
+    "name": "fsncursosonline/cursomvc",
+    "description": "Curso de MVC com composer no PHP",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "Fsncursosonline\\Cursomvc\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Fabio S."
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\":"app/",
+            "core\\":"core/"
+        },
+        "files": [
+            "config/config.php"
+        ]
+    }
+}
